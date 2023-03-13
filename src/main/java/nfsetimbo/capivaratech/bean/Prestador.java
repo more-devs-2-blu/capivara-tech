@@ -1,9 +1,26 @@
 package nfsetimbo.capivaratech.bean;
 
-import jakarta.xml.bind.annotation.XmlType;
+import nfsetimbo.capivaratech.soap.TypeBase;
 
-@XmlType(propOrder = {"cpfcnpj", "inscricaoMunicipal"})
-public class Prestador {
-    private CpfCnpj cpfCnpj;
+public class Prestador extends TypeBase {
 
+    protected CpfCnpj cpfCnpj;
+
+    protected int cidade;
+
+    public Prestador(CpfCnpj cpfCnpj, int cidade) {
+        this.cpfCnpj = cpfCnpj;
+        this.cidade = cidade;
+    }
+
+    public String gerarPrestador() {
+        return "<Prestador>" +
+                    "<cpfcnpj>"
+                        + cpfCnpj +
+                    "<cpfcnpj>" +
+                    "<cidade>"
+                        + cidade +
+                    "</cidade>" +
+                "</Prestador>";
+    }
 }
