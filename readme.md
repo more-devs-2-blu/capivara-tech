@@ -45,10 +45,8 @@ E-mail diken.dev@gmail.com    | Github: https://github.com/more-devs-2-blu/capiv
 | ------ | ------ |
 | 1º fase | [09/03/2023 - imersão] |
 | 2º fase | [10/03 a 12/03/2023 - Ideação] |
-| 3º fase | [link][13/03 - Prototipação] |
+| 3º fase | [13/03 - Clique neste link - Prototipação](https://github.com/more-devs-2-blu/capivara-tech/tree/main/documentacoes) |
 | 4º fase | [14 a 15/03 - Implementação] |
-
-
 
 
 ---------------
