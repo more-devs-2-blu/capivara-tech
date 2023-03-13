@@ -1,4 +1,4 @@
-package nfsetimbo.capivaratech.bean;
+package nfsetimbo.capivaratech.bean.enums;
 
 
 import jakarta.xml.bind.annotation.XmlEnum;
