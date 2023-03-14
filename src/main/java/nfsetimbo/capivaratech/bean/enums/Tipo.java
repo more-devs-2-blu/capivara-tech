@@ -13,17 +13,20 @@ public enum Tipo {
 //      • F para Pessoa Física;
 //      • E para Estrangeiro.
 
-    @XmlEnumValue("f") PESSOA_FISICA("f"),
-    @XmlEnumValue("j") PESSOA_JURIDICA("j"),
-    @XmlEnumValue("e") ESTRANGEIRO("e");
+    @XmlEnumValue("f")
+    PESSOA_FISICA('F'),
+    @XmlEnumValue("j")
+    PESSOA_JURIDICA('J'),
+    @XmlEnumValue("e")
+    ESTRANGEIRO('E');
 
-    private final String label;
+    private final Character label;
 
-    Tipo(String label) {
+    Tipo(Character label) {
         this.label = label;
     }
 
-    public String getLabel() {
+    public Character getLabel() {
         return label;
     }
 }
