@@ -1,11 +1,14 @@
 package nfsetimbo.capivaratech.bean;
 
-import nfsetimbo.capivaratech.soap.TypeBase;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlType;
 
-public class Prestador extends TypeBase {
+import java.io.Serializable;
+
+@XmlType(propOrder = {"cpfcnpj", "cidade"})
+public class Prestador implements Serializable {
 
     protected CpfCnpj cpfCnpj;
-
     protected int cidade;
 
     public Prestador(CpfCnpj cpfCnpj, int cidade) {
@@ -13,14 +16,20 @@ public class Prestador extends TypeBase {
         this.cidade = cidade;
     }
 
-    public String gerarPrestador() {
-        return "<Prestador>" +
-                    "<cpfcnpj>"
-                        + cpfCnpj +
-                    "<cpfcnpj>" +
-                    "<cidade>"
-                        + cidade +
-                    "</cidade>" +
-                "</Prestador>";
+    @XmlElement(name = "cpfcnpj")
+    public CpfCnpj getCpfCnpj() {
+        return cpfCnpj;
+    }
+
+    public void setCpfCnpj(CpfCnpj cpfCnpj) {
+        this.cpfCnpj = cpfCnpj;
+    }
+    @XmlElement(name = "cidade")
+    public int getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(int cidade) {
+        this.cidade = cidade;
     }
 }
