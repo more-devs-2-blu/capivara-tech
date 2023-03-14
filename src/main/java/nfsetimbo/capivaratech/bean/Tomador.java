@@ -1,24 +1,45 @@
 package nfsetimbo.capivaratech.bean;
 
-import lombok.Getter;
-import lombok.Setter;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlType;
 import nfsetimbo.capivaratech.bean.enums.Tipo;
-import nfsetimbo.capivaratech.soap.TypeBase;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
-@Getter
-@Setter
-public class Tomador extends TypeBase {
+import java.io.Serializable;
 
-    private Tipo tipo;
-    private CpfCnpj cpfCnpj;
+@XmlType(propOrder = {"tipo", "cpfcnpj", "nome_razao_social"})
+public class Tomador implements Serializable {
 
-    public Tomador(Element root) {
-        Node nodeTipo = super.extractNodeByTag(root.getElementsByTagName("Tipo"));
-        Node nodeCpfCnpj = super.extractNodeByTag(root.getElementsByTagName("CpfCnpj"));
+    protected Tipo tipo;
+    protected CpfCnpj cpfCnpj;
+    protected String razaoSocial;
 
-        this.tipo = nodeTipo!=null? Tipo.valueOf(nodeTipo.getTextContent()) : null;
-        this.cpfCnpj = nodeCpfCnpj!=null ? new CpfCnpj((Element) nodeCpfCnpj) : null;
+    @XmlElement(name = "tipo")
+    public Tipo getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(Tipo tipo) {
+        this.tipo = tipo;
+    }
+
+    @XmlElement(name = "cpfcnpj")
+    public CpfCnpj getCpfCnpj() {
+        return cpfCnpj;
+    }
+
+    public void setCpfCnpj(CpfCnpj cpfCnpj) {
+        this.cpfCnpj = cpfCnpj;
+    }
+
+    @XmlElement(name = "nome_razao_social")
+    public String getRazaoSocial() {
+        return razaoSocial;
+    }
+
+    public void setRazaoSocial(String razaoSocial) {
+        this.razaoSocial = razaoSocial;
     }
 }
