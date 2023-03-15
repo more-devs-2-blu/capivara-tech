@@ -1,4 +1,4 @@
-package nfsetimbo.capivaratech.bean;
+package nfsetimbo.capivaratech.model;
 
 import lombok.Getter;
 import lombok.Setter;

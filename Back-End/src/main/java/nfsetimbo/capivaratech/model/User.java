@@ -2,6 +2,7 @@ package nfsetimbo.capivaratech.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import org.hibernate.validator.constraints.UUID;
 
 import java.io.Serializable;
 
@@ -13,17 +14,16 @@ public class User implements Serializable {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", cnpj=" + cnpj +
-                ", nameCorporateReason='" + nameCorporateReason + '\'' +
+                ", tipoPessoa='" + tipoPessoa + '\'' +
+                ", estado='" + estado + '\'' +
+                ", cnpjcpf='" + cnpjcpf + '\'' +
+                ", inscricaoEstadual='" + inscricaoEstadual + '\'' +
+                ", nomeRazaoSocial='" + nomeRazaoSocial + '\'' +
+                ", sobrenome='" + sobrenome + '\'' +
+                ", logradouro='" + logradouro + '\'' +
                 ", email='" + email + '\'' +
-                ", publicPlace='" + publicPlace + '\'' +
-                ", numberHome=" + numberHome +
-                ", apartment=" + apartment +
-                ", neighborhood='" + neighborhood + '\'' +
-                ", city='" + city + '\'' +
                 ", cep='" + cep + '\'' +
-                ", businessPhone=" + businessPhone +
-                ", homePhone=" + homePhone +
+                ", userCode=" + userCode +
                 '}';
     }
 
@@ -32,27 +32,16 @@ public class User implements Serializable {
     @Column(nullable = false,  updatable = false)
     private Long id;
 
-    private double cnpj;
-
-    private String nameCorporateReason;
-
+    private String tipoPessoa;
+    private String estado;
+    private String  cnpjcpf;
+    private String inscricaoEstadual;
+    private String nomeRazaoSocial;
+    private String sobrenome;
+    private String logradouro;
     private String email;
-    private String publicPlace;
-
-    private double numberHome;
-
-    private double apartment;
-
-    private String neighborhood;
-
-    private String city;
-
     private String cep;
 
-    private double businessPhone;
-
-    private double homePhone;
-
     @Column(nullable = false, updatable = false)
-    private String UserCode;
+    private UUID userCode;
 }

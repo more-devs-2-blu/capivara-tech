@@ -1,4 +1,4 @@
-package nfsetimbo.capivaratech.bean;
+package nfsetimbo.capivaratech.model;
 
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlType;
@@ -6,24 +6,18 @@ import nfsetimbo.capivaratech.bean.enums.TributaMunicipioPrestador;
 
 import java.io.Serializable;
 
-@XmlType(propOrder = {"tributa_municipio_prestador",
-        "codigo_local_prestacaoServico",
-        "unidade_codigo", "unidade_quantidade",
-        "unidade_valor_unitario", "codigo_item_lista_servico",
-        "descritivo", "aliquota_item_lista_servico", "situacao_tributaria", "valor_tributavel"})
 public class ListaNfse implements Serializable {
    private TributaMunicipioPrestador tributaMunicipioPrestador;
    private int codigoLocalPrestacaoServico = 8357;
    private int unidadeCodigo = 43;
    private int unidadeQuantidade = 1;
-   private Double  unidadeValorUnitario = 1.0;
+   private double unidadeValorUnitario = 1.0;
    private  int  codigoItemListaServico = 9;
    private  String descritivo = "teste";
-   private Double aliquotaItemListaServico = 5.00;
-   private Double situacaoTributaria;
-   private Double valorTributavel;
+   private double aliquotaItemListaServico = 5.00;
+   private double situacaoTributaria;
+   private double valorTributavel;
 
-   @XmlElement(name = "tributa_municipio_prestador")
    public TributaMunicipioPrestador getTributaMunicipioPrestador() {
       return tributaMunicipioPrestador;
    }
@@ -32,7 +26,6 @@ public class ListaNfse implements Serializable {
       this.tributaMunicipioPrestador = tributaMunicipioPrestador;
    }
 
-   @XmlElement(name = "codigo_local_prestacaoServico")
    public int getCodigoLocalPrestacaoServico() {
       return codigoLocalPrestacaoServico;
    }
@@ -41,7 +34,6 @@ public class ListaNfse implements Serializable {
       this.codigoLocalPrestacaoServico = codigoLocalPrestacaoServico;
    }
 
-   @XmlElement(name = "unidade_codigo" )
    public int getUnidadeCodigo() {
       return unidadeCodigo;
    }
@@ -50,7 +42,6 @@ public class ListaNfse implements Serializable {
       this.unidadeCodigo = unidadeCodigo;
    }
 
-   @XmlElement(name = "unidade_quantidade")
    public int getUnidadeQuantidade() {
       return unidadeQuantidade;
    }
@@ -59,16 +50,14 @@ public class ListaNfse implements Serializable {
       this.unidadeQuantidade = unidadeQuantidade;
    }
 
-   @XmlElement(name = "unidade_valor_unitario")
-   public Double getUnidadeValorUnitario() {
+   public double getUnidadeValorUnitario() {
       return unidadeValorUnitario;
    }
 
-   public void setUnidadeValorUnitario(Double unidadeValorUnitario) {
+   public void setUnidadeValorUnitario(double unidadeValorUnitario) {
       this.unidadeValorUnitario = unidadeValorUnitario;
    }
 
-   @XmlElement(name = "codigo_item_lista_servico")
    public int getCodigoItemListaServico() {
       return codigoItemListaServico;
    }
@@ -77,7 +66,6 @@ public class ListaNfse implements Serializable {
       this.codigoItemListaServico = codigoItemListaServico;
    }
 
-   @XmlElement(name = "descritivo")
    public String getDescritivo() {
       return descritivo;
    }
@@ -86,30 +74,27 @@ public class ListaNfse implements Serializable {
       this.descritivo = descritivo;
    }
 
-   @XmlElement(name = "aliquota_item_lista_servico")
-   public Double getAliquotaItemListaServico() {
+   public double getAliquotaItemListaServico() {
       return aliquotaItemListaServico;
    }
 
-   public void setAliquotaItemListaServico(Double aliquotaItemListaServico) {
+   public void setAliquotaItemListaServico(double aliquotaItemListaServico) {
       this.aliquotaItemListaServico = aliquotaItemListaServico;
    }
 
-   @XmlElement(name = "situacao_tributaria")
-   public Double getSituacaoTributaria() {
+   public double getSituacaoTributaria() {
       return situacaoTributaria;
    }
 
-   public void setSituacaoTributaria(Double situacaoTributaria) {
+   public void setSituacaoTributaria(double situacaoTributaria) {
       this.situacaoTributaria = situacaoTributaria;
    }
 
-   @XmlElement(name = "valor_tributavel")
-   public Double getValorTributavel() {
+   public double getValorTributavel() {
       return valorTributavel;
    }
 
-   public void setValorTributavel(Double valorTributavel) {
+   public void setValorTributavel(double valorTributavel) {
       this.valorTributavel = valorTributavel;
    }
 }
