@@ -1,11 +1,10 @@
-package nfsetimbo.capivaratech.bean;
+package nfsetimbo.capivaratech.model;
 
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlType;
 
 import java.io.Serializable;
 
-@XmlType(propOrder = {"cpfcnpj", "cidade"})
 public class Prestador implements Serializable {
 
     protected CpfCnpj cpfCnpj;
@@ -16,7 +15,6 @@ public class Prestador implements Serializable {
         this.cidade = cidade;
     }
 
-    @XmlElement(name = "cpfcnpj")
     public CpfCnpj getCpfCnpj() {
         return cpfCnpj;
     }
@@ -24,7 +22,7 @@ public class Prestador implements Serializable {
     public void setCpfCnpj(CpfCnpj cpfCnpj) {
         this.cpfCnpj = cpfCnpj;
     }
-    @XmlElement(name = "cidade")
+
     public int getCidade() {
         return cidade;
     }

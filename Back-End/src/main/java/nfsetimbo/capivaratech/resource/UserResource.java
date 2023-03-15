@@ -2,6 +2,7 @@ package nfsetimbo.capivaratech.resource;
 
 import nfsetimbo.capivaratech.model.User;
 import nfsetimbo.capivaratech.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +15,7 @@ public class UserResource {
 
     private UserService userService;
 
+    @Autowired
     public UserResource(UserService userService) {this.userService = userService;}
 
 

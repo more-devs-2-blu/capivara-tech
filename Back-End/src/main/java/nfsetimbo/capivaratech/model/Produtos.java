@@ -1,16 +1,14 @@
-package nfsetimbo.capivaratech.bean;
+package nfsetimbo.capivaratech.model;
 
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlType;
 
-@XmlType(propOrder = {"descricao", "valor"} )
 public class Produtos {
 
     private String descricao;
 
-    private Double valor;
+    private double valor;
 
-    @XmlElement(name = "descricao")
     public String getDescricao() {
         return descricao;
     }
@@ -19,12 +17,11 @@ public class Produtos {
         this.descricao = descricao;
     }
 
-    @XmlElement(name = "valor")
-    public Double getValor() {
+    public double getValor() {
         return valor;
     }
 
-    public void setValor(Double valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 }

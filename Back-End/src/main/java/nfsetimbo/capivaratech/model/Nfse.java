@@ -1,12 +1,31 @@
-package nfsetimbo.capivaratech.bean;
+package nfsetimbo.capivaratech.model;
 
-import jakarta.xml.bind.annotation.XmlElement;
-import jakarta.xml.bind.annotation.XmlType;
+import jakarta.persistence.*;
+import lombok.Data;
 
 import java.io.Serializable;
 
-@XmlType(propOrder = {"identificador", "nf", "prestador", "tomador", "itens", "produtos"})
+@Entity
+@Data
 public class Nfse implements Serializable {
+
+    @Override
+    public String toString() {
+        return "Nfse{" +
+                "id=" + id +
+                ", identificador=" + identificador +
+                ", valoresNfse=" + valoresNfse +
+                ", prestador=" + prestador +
+                ", tomador=" + tomador +
+                ", itens=" + itens +
+                ", produtos=" + produtos +
+                '}';
+    }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(nullable = false,  updatable = false)
+    private Long id;
 
     private int identificador;
 
@@ -20,7 +39,6 @@ public class Nfse implements Serializable {
 
     private Produtos produtos;
 
-    @XmlElement(name = "identificador")
     public int getIdentificador() {
         return identificador;
     }
@@ -29,7 +47,6 @@ public class Nfse implements Serializable {
         this.identificador = identificador;
     }
 
-    @XmlElement(name = "nf")
     public ValoresNfse getValoresNfse() {
         return valoresNfse;
     }
@@ -38,7 +55,7 @@ public class Nfse implements Serializable {
         this.valoresNfse = valoresNfse;
     }
 
-    @XmlElement(name = "prestador")
+
     public Prestador getPrestador() {
         return prestador;
     }
@@ -47,7 +64,7 @@ public class Nfse implements Serializable {
         this.prestador = prestador;
     }
 
-    @XmlElement(name = "tomador")
+
     public Tomador getTomador() {
         return tomador;
     }
@@ -56,7 +73,7 @@ public class Nfse implements Serializable {
         this.tomador = tomador;
     }
 
-    @XmlElement(name = "itens")
+
     public ItensNfse getItens() {
         return itens;
     }
@@ -65,7 +82,6 @@ public class Nfse implements Serializable {
         this.itens = itens;
     }
 
-    @XmlElement(name = "produtos")
     public Produtos getProdutos() {
         return produtos;
     }
