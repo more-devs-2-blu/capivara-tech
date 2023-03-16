@@ -1,18 +1,12 @@
 package nfsetimbo.capivaratech.model;
 
 import jakarta.persistence.*;
-import jakarta.xml.bind.annotation.XmlAccessType;
-import jakarta.xml.bind.annotation.XmlAccessorType;
-import jakarta.xml.bind.annotation.XmlElement;
-import jakarta.xml.bind.annotation.XmlRootElement;
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Entity
 @Data
-@XmlRootElement(name = "NFSe")
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Nfse implements Serializable {
 
     @Override
@@ -31,25 +25,24 @@ public class Nfse implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false,  updatable = false)
-    @XmlElement(name="id")
     private Long id;
 
-    @XmlElement(name="identificador")
+    @Column(name="identificador")
     private int identificador;
 
-    @XmlElement(name="nf")
+    @Column(name="nf")
     private ValoresNfse valoresNfse;
 
-    @XmlElement(name="prestador")
+    @Column(name="prestador")
     private Prestador prestador;
 
 
-    @XmlElement(name="tomador")
+    @Column(name="tomador")
     private Tomador tomador;
 
-    @XmlElement(name="itens")
+    @Column(name="itens")
     private ListaNfse itens;
 
-    @XmlElement(name="produtos")
+    @Column(name="produtos")
     private Produtos produtos;
 }
