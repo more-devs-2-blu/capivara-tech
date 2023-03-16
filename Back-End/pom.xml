@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>Projeto</groupId>
-	<artifactId>capivara-tech</artifactId>
+	<artifactId>BackEnd-Pet-Shop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BackEnd-Pet-Shop</name>
-	<description>Api de digitação, transmissão e consulta de NFS-es, prefeitura de Timbo/SC</description>
+	<description>Projeto para permitir controle de cadastro de animais de estimação em um pet-shop </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

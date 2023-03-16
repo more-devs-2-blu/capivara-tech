@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.UUID;
 
 
 import static jakarta.persistence.GenerationType.UUID;
@@ -28,7 +29,7 @@ public class UserService {
     }
 
     public User addUser(User user) {
-        user.setUserCode((UUID.randomUUID().toString()));
+        user.setUserCode(java.util.UUID.randomUUID());
         return userRepository.save(user);
     }
 

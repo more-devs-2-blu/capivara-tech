@@ -2,9 +2,9 @@ package nfsetimbo.capivaratech.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.validator.constraints.UUID;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 @Entity
 @Data
@@ -46,4 +46,6 @@ public class User implements Serializable {
 
     @Column(nullable = false, updatable = false)
     private UUID userCode;
+
+
 }
