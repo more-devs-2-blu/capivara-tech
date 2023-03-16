@@ -1,0 +1,236 @@
+/* screen - login-dois */
+
+.login {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  overflow: hidden;
+  width: 408px;
+}
+
+.overlap-group4 {
+  border-radius: 10px;
+  height: 527px;
+  position: relative;
+  width: 408px;
+}
+
+.overlap-group {
+  align-items: center;
+  background-color: #0e1b21;
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 527px;
+  padding: 4px;
+  position: absolute;
+  top: 0;
+  width: 408px;
+}
+
+.flex-row {
+  align-items: center;
+  display: flex;
+  margin-right: 16.0px;
+  min-width: 384px;
+}
+
+.icon {
+  height: 32px;
+  width: 32px;
+}
+
+.capivara-tech {
+  color: var(--akaroa);
+  font-family: var(--font-family-rawline-black);
+  font-size: var(--font-size-s);
+  font-weight: 900;
+  height: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 4.0px;
+  margin-left: 9px;
+  width: 116px;
+}
+
+.vector {
+  height: 11px;
+  margin-left: 116px;
+  width: 110px;
+}
+
+.overlap-group3 {
+  height: 152px;
+  margin-right: 1.0px;
+  margin-top: 10px;
+  position: relative;
+  width: 385px;
+}
+
+.acesse-a-sua-conta-capivara {
+  color: transparent;
+  font-family: var(--font-family-rawline-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  height: 152px;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 371px;
+}
+
+.span {
+  color: var(--akaroa);
+}
+
+.span1 {
+  color: #84472b;
+}
+
+.line-1 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 150px;
+  width: 385px;
+}
+
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: #d7c2ad40;
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.0px;
+  margin-top: 43px;
+  min-width: 371px;
+  padding: 0 1px;
+}
+
+.usurio {
+  height: 54px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  width: 363px;
+}
+
+.overlap-group2 {
+  align-items: flex-start;
+  background-color: #d7c2ad40;
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.0px;
+  margin-top: 14px;
+  min-width: 371px;
+  padding: 0 1px;
+}
+
+.senha {
+  height: 55px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  width: 363px;
+}
+
+.esqueci-minha-senha {
+  color: #84472b;
+  font-family: var(--font-family-rawline-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 38px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 363px;
+  width: 371px;
+}
+
+.line-1-1 {
+  height: 2px;
+  left: 11px;
+  position: absolute;
+  top: 424px;
+  width: 385px;
+}
+
+.rectangle-4 {
+  left: 211px;
+}
+
+.entrar {
+  height: 54px;
+  left: 211px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 453px;
+  width: 178px;
+}
+
+.vector-11 {
+  height: 22px;
+  left: 227px;
+  position: absolute;
+  top: 470px;
+  width: 22px;
+}
+
+.rectangle-13 {
+  left: 18px;
+}
+
+.criar {
+  height: 54px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 453px;
+  width: 178px;
+}
+
+.vector-13 {
+  height: 22px;
+  left: 34px;
+  position: absolute;
+  top: 470px;
+  width: 22px;
+}
+
+.vector-1 {
+  height: 20px;
+  left: 348px;
+  position: absolute;
+  top: 327px;
+  width: 28px;
+}
+
+.rectangle {
+  background: linear-gradient(180deg, rgb(194, 156, 109) 0%, rgb(132, 71, 43) 100%);
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  height: 54px;
+  position: absolute;
+  top: 454px;
+  width: 178px;
+}

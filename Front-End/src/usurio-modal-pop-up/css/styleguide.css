@@ -1,0 +1,15 @@
+:root { 
+  --akaroa: #d7c2ad;
+  --black: #000000;
+ 
+  --font-size-m: 16px;
+ 
+  --font-family-rawline-bold: "Rawline-Bold", Helvetica;
+}
+.rawline-bold-akaroa-16px {
+  color: var(--akaroa);
+  font-family: var(--font-family-rawline-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}

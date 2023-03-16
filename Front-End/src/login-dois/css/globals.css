@@ -1,0 +1,20 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://px.animaapp.com/64126f5b9b8bb7c55e37fd99.64126f5c4eb23143dd200615.oi00ABE.hcp.png");
+
+@font-face {
+  font-family: "Rawline-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rawline-700.ttf") format("truetype");
+}
+
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}

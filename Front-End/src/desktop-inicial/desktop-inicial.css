@@ -1,0 +1,341 @@
+/* screen - desktop-inicial */
+
+.desktop-inicial {
+    background-color: #1e1e1e;
+    border: 1px none;
+    height: 1080px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .desktop-inicial .bg-xXGkUP {
+    background: linear-gradient(180deg, rgb(14.000000115484, 27.000000290572643, 33.00000183284283) 0%, rgba(132.0000073313713, 71.00000336766243, 43.00000123679638, 0.5) 100%);
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--akaroa);
+    border-radius: 10px;
+    height: 1080px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 1920px;
+  }
+  
+  .desktop-inicial .main-xXGkUP {
+    background-color: transparent;
+    height: 336px;
+    left: 756px;
+    position: absolute;
+    top: 372px;
+    width: 416px;
+  }
+  
+  .desktop-inicial .main-GSZe9Z {
+    background-color: #0e1b21;
+    border: 1px solid;
+    border-color: var(--akaroa);
+    border-radius: 10px;
+    height: 336px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 408px;
+  }
+  
+  .desktop-inicial .line-1-GSZe9Z {
+    top: 24px;
+  }
+  
+  .desktop-inicial .line-1-YOsahz {
+    top: 311px;
+  }
+  
+  .desktop-inicial .rectangle-13-GSZe9Z {
+    background: linear-gradient(180deg, rgb(194.00000363588333, 156.00000590085983, 109.00000110268593) 0%, rgb(132.0000073313713, 71.00000336766243, 43.00000123679638) 100%);
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--akaroa);
+    border-radius: 10px;
+    height: 54px;
+    left: 18px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 39px;
+    width: 371px;
+  }
+  
+  .desktop-inicial .criar-nsf-e-GSZe9Z {
+    background-color: transparent;
+    height: 54px;
+    left: 45px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 39px;
+    width: 344px;
+  }
+  
+  .desktop-inicial .vector-13-GSZe9Z {
+    background-color: transparent;
+    height: 22px;
+    left: 34px;
+    position: absolute;
+    top: 55px;
+    width: 22px;
+  }
+  
+  .desktop-inicial .rectangle-14-GSZe9Z {
+    background: linear-gradient(180deg, rgb(194.00000363588333, 156.00000590085983, 109.00000110268593) 0%, rgb(132.0000073313713, 71.00000336766243, 43.00000123679638) 100%);
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--akaroa);
+    border-radius: 10px;
+    height: 54px;
+    left: 18px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 106px;
+    width: 371px;
+  }
+  
+  .desktop-inicial .ver-nsf-es-GSZe9Z {
+    background-color: transparent;
+    height: 54px;
+    left: 45px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 106px;
+    width: 344px;
+  }
+  
+  .desktop-inicial .rectangle-15-GSZe9Z {
+    background: linear-gradient(180deg, rgb(194.00000363588333, 156.00000590085983, 109.00000110268593) 0%, rgb(132.0000073313713, 71.00000336766243, 43.00000123679638) 100%);
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--akaroa);
+    border-radius: 10px;
+    height: 54px;
+    left: 18px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 173px;
+    width: 371px;
+  }
+  
+  .desktop-inicial .clientes-GSZe9Z {
+    background-color: transparent;
+    height: 54px;
+    left: 45px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 173px;
+    width: 344px;
+  }
+  
+  .desktop-inicial .vector-GSZe9Z {
+    height: 21px;
+    left: 34px;
+    top: 189px;
+    width: 22px;
+  }
+  
+  .desktop-inicial .rectangle-16-GSZe9Z {
+    background: linear-gradient(180deg, rgb(194.00000363588333, 156.00000590085983, 109.00000110268593) 0%, rgb(132.0000073313713, 71.00000336766243, 43.00000123679638) 100%);
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--akaroa);
+    border-radius: 10px;
+    height: 54px;
+    left: 18px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 240px;
+    width: 371px;
+  }
+  
+  .desktop-inicial .meus-dados-GSZe9Z {
+    background-color: transparent;
+    height: 54px;
+    left: 45px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 240px;
+    width: 344px;
+  }
+  
+  .desktop-inicial .vector-15-GSZe9Z {
+    background-color: transparent;
+    height: 22px;
+    left: 34px;
+    position: absolute;
+    top: 122px;
+    width: 22px;
+  }
+  
+  .desktop-inicial .vector-YOsahz {
+    height: 20px;
+    left: 35px;
+    top: 257px;
+    width: 20px;
+  }
+  
+  .desktop-inicial .main-B7q0Rl {
+    background-color: #0e1b21;
+    border: 1px solid;
+    border-color: var(--akaroa);
+    border-radius: 10px;
+    height: 108px;
+    left: 1689px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 57px;
+    width: 211px;
+  }
+  
+  .desktop-inicial .rectangle-17-xXGkUP {
+    background: linear-gradient(180deg, rgba(215.0000023841858, 194.00000363588333, 173.00000488758087, 0.25) 0%, rgba(215.0000023841858, 194.00000363588333, 173.00000488758087, 0) 100%);
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--akaroa);
+    border-radius: 10px;
+    height: 54px;
+    left: 1689px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 111px;
+    width: 211px;
+  }
+  
+  .desktop-inicial .sair-xXGkUP {
+    background-color: transparent;
+    height: 54px;
+    left: 1689px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    width: 211px;
+  }
+  
+  .desktop-inicial .vector-17-xXGkUP {
+    background-color: transparent;
+    height: 22px;
+    left: 1705px;
+    position: absolute;
+    top: 127px;
+    width: 25px;
+  }
+  
+  .desktop-inicial .conectado-como-xXGkUP {
+    background-color: transparent;
+    color: var(--akaroa);
+    font-family: var(--font-family-rawline-bold);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+    height: 21px;
+    left: 1689px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 35px;
+    width: 211px;
+  }
+  
+  .desktop-inicial .nome-de-exemplo-xXGkUP {
+    background-color: transparent;
+    height: 54px;
+    left: 1689px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 56px;
+    width: 176px;
+  }
+  
+  .desktop-inicial .top-xXGkUP {
+    background-color: transparent;
+    height: 32px;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    width: 1898px;
+  }
+  
+  .desktop-inicial .vector-46ZD62 {
+    height: 12px;
+    left: 1786px;
+    top: 10px;
+    width: 110px;
+  }
+  
+  .desktop-inicial .capivara-tech-46ZD62 {
+    background-color: transparent;
+    color: var(--akaroa);
+    font-family: var(--font-family-rawline-black);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 900;
+    height: 12px;
+    left: 41px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 8px;
+    width: 442px;
+  }
+  
+  .desktop-inicial .logo-46ZD62 {
+    background-color: transparent;
+    height: 32px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 32px;
+  }
+  
+  .desktop-inicial .vector-14-xXGkUP {
+    background-color: transparent;
+    height: 9px;
+    left: 1864px;
+    position: absolute;
+    top: 83px;
+    width: 16px;
+  }
+  
+  .desktop-inicial .line-1 {
+    background-color: transparent;
+    height: 2px;
+    left: 11px;
+    position: absolute;
+    width: 385px;
+  }
+  
+  .desktop-inicial .vector {
+    background-color: transparent;
+    position: absolute;
+  }
