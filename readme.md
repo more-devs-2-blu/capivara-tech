@@ -9,7 +9,7 @@
 ###  +DEVS2BLU - INSTITUIÇÃO PROWAY - TURMA ONLINE DE JAVA 
 <br>
 
-### GRUPO 1 - CAPIVARATECH   
+### ⚙️ GRUPO 1 - CAPIVARATECH   
 
 <br>
 
@@ -27,7 +27,7 @@ E-mail diken.dev@gmail.com    | Github: https://github.com/more-devs-2-blu/capiv
 
 <br>
 
-### MENTORES DA EMPRESA ÂNCORA SENIOR: 
+### ⚙️ MENTORES DA EMPRESA ÂNCORA SENIOR: 
 
 <br>
 
@@ -40,7 +40,7 @@ E-mail diken.dev@gmail.com    | Github: https://github.com/more-devs-2-blu/capiv
 ---------------
 <br>
 
-### ESCOLHA DO DESAFIO A  
+### ⚙️ ESCOLHA DO DESAFIO A  
 
 <br>
 - Como facilitar a digitação e gestão de NFS-es?
@@ -55,7 +55,7 @@ E-mail diken.dev@gmail.com    | Github: https://github.com/more-devs-2-blu/capiv
 | 4º fase | [14 a 15/03 --> Implementação](https://github.com/more-devs-2-blu/capivara-tech) |
 
 
-### DESCRIÇÃO DO PROJETO
+### ⚙️ DESCRIÇÃO DO PROJETO
 
 <br>
 
@@ -67,7 +67,7 @@ E-mail diken.dev@gmail.com    | Github: https://github.com/more-devs-2-blu/capiv
 
 <br>
 
-### REGRAS DE NEGÓCIOS 
+### ⚙️ REGRAS DE NEGÓCIOS 
 
 <br>
 
@@ -96,7 +96,7 @@ REQUISITOS NÃO FUNCIONAIS:
 
 <br>
 
-### LINGUAGENS, FRAMEWORKS E FERRAMENTAS UTILIZADAS
+### ⚙️ LINGUAGENS, FRAMEWORKS E FERRAMENTAS UTILIZADAS
 
 
 
