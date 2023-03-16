@@ -8,11 +8,11 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>Projeto</groupId>
-	<artifactId>BackEnd-Pet-Shop</artifactId>
+	<groupId>nfse-timbo</groupId>
+	<artifactId>capivara-tech</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BackEnd-Pet-Shop</name>
-	<description>Projeto para permitir controle de cadastro de animais de estimação em um pet-shop </description>
+	<name>capivara-tech</name>
+	<description>Api de digitação, transmissão e consulta de NFS-es, prefeitura de Timbo/SC  </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
