@@ -1,13 +1,15 @@
 package nfsetimbo.capivaratech.bean.enums;
 
 
-import jakarta.xml.bind.annotation.XmlEnum;
-import jakarta.xml.bind.annotation.XmlEnumValue;
-import jakarta.xml.bind.annotation.XmlType;
+import jakarta.xml.bind.annotation.*;
+
+import java.io.Serializable;
+
 
 @XmlEnum
 @XmlType(name = "tipo")
-public enum Tipo {
+@XmlAccessorType(XmlAccessType.FIELD)
+public enum Tipo implements Serializable {
 //      Tipo da pessoa, informar:
 //      • J para Pessoa Jurídica;
 //      • F para Pessoa Física;
