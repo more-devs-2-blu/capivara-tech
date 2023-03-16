@@ -50,7 +50,7 @@ E-mail diken.dev@gmail.com    | Github: https://github.com/more-devs-2-blu/capiv
 | Etapas | Período |
 | ------ | ------ |
 | 1º fase | [09/03/2023 - imersão] |
-| 2º fase | [10/03 a 12/03/2023 --> Ideação](https://miro.com/welcomeonboard/amxraVpTbFVXNUc0YVVlZnJJQkIxQTlPQXhhQ1NrcEtkMXV3NW9RakZyYlBFdUNXMG1xaHlwSW5zU1ByMXc2S3wzNDU4NzY0NTQ4NDM2OTMzODQ2fDI=?share_link_id=662426892510) |
+| 2º fase | [10/03 a 12/03/2023 --> Ideação](https://miro.com/app/board/uXjVMen0qyw=/) |
 | 3º fase | [13/03 --> Prototipação](https://www.figma.com/file/ycll5Sw56Af4Kaw2vQU204/CapivaraTech?node-id=0-1) |
 | 4º fase | [14 a 15/03 --> Implementação](https://github.com/more-devs-2-blu/capivara-tech) |
 
@@ -99,17 +99,16 @@ REQUISITOS NÃO FUNCIONAIS:
 ### LINGUAGENS, FRAMEWORKS E FERRAMENTAS UTILIZADAS
 
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-<a href="https://angular.io" target="_blank" rel="noreferrer"> <a href="https://spring.io/" target="_blank" rel="noreferrer"> 
-<img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> 
-<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a>  
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
 
 <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
 <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
  </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+<a href="https://angular.io" target="_blank" rel="noreferrer"> <a href="https://spring.io/" target="_blank" rel="noreferrer"> 
+<img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> 
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a>  
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer">  </p>
 
 ---------------
   
