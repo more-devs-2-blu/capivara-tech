@@ -1,18 +1,15 @@
 package nfsetimbo.capivaratech.model;
 
-import jakarta.xml.bind.annotation.*;
+import jakarta.persistence.Column;
 import lombok.Data;
 
 @Data
-@XmlType(propOrder = {"descricao", "valor"} )
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement
 public class Produtos {
 
-    @XmlElement(name = "descricao")
+    @Column(name = "descricao")
     private String descricao;
 
-    @XmlElement(name = "valor")
+    @Column(name = "valor")
     private String valor;
 
     public Produtos(String descricao, String valor ) {
