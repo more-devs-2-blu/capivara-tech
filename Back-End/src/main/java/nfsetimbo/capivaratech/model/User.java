@@ -37,6 +37,7 @@ public class User implements Serializable {
     private String nameCorporateReason;
 
     private String email;
+
     private String publicPlace;
 
     private double numberHome;
