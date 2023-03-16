@@ -70,6 +70,10 @@ console.log(user.cnpjcpf);
   )
 }
 
+// public onLoginUser(userId: number| undefined, senha: String| undefined){
+//   this.getUsers() = response
+// }
+
 public onDeleteUser(userId: number | undefined): void{
 
   this.userService.deleteUser(userId).subscribe(

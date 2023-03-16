@@ -42,6 +42,8 @@ public class User implements Serializable {
     private String email;
     private String cep;
 
+    private String senha;
+
     @Column(nullable = false, updatable = false)
     private UUID userCode;
 }
