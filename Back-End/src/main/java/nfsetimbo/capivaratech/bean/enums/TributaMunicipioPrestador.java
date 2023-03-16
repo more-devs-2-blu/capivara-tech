@@ -1,25 +1,28 @@
 package nfsetimbo.capivaratech.bean.enums;
 
-import jakarta.xml.bind.annotation.XmlEnum;
-import jakarta.xml.bind.annotation.XmlEnumValue;
-import jakarta.xml.bind.annotation.XmlType;
+import jakarta.xml.bind.annotation.*;
+
+import java.io.Serializable;
 
 @XmlEnum
 @XmlType(name = "tributa_municipio_prestador")
-public enum TributaMunicipioPrestador {
+@XmlAccessorType(XmlAccessType.FIELD)
+public enum TributaMunicipioPrestador implements Serializable {
 
-    LOCAL_DA_PRESTACAO_DO_SERVICO(0),
+    @XmlEnumValue("s")
+    //LOCAL_DA_PRESTACAO_DO_SERVICO
+    S ('S'),
 
-    MUNICIPIO_PRESTADOR(1);
+    @XmlEnumValue("s")
+    //MUNICIPIO_PRESTADOR
+    N('N');
 
-    private final int value;
+    private final Character label;
 
-    private TributaMunicipioPrestador(int value) {
-        this.value = value;
+    TributaMunicipioPrestador(Character label) {
+        this.label = label;
     }
-    public int getValue() {
-        return value;
+    public Character getLabel() {
+        return label;
     }
-
-
 }
