@@ -36,11 +36,9 @@ body {
     color: white;
     font-size: 24px;
 }
-
 .acesse {
     left: 84px;
 }
-
 .conta {
     position: absolute;
     color: white;
@@ -49,7 +47,6 @@ body {
     font-size: 24px;
 
 }
-
 .capivaraText {
     position: absolute;
     color: #8b5831;
@@ -70,8 +67,6 @@ body {
     border-color: #582e0d;
     height: 30.1%;
 }
-
-
 
 .cont2 {
     display: block;
