@@ -1,12 +1,18 @@
 package nfsetimbo.capivaratech.model;
 
 import jakarta.persistence.*;
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Entity
 @Data
+@XmlRootElement(name = "NFSe")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Nfse implements Serializable {
 
     @Override
@@ -25,68 +31,25 @@ public class Nfse implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false,  updatable = false)
+    @XmlElement(name="id")
     private Long id;
 
+    @XmlElement(name="identificador")
     private int identificador;
 
+    @XmlElement(name="nf")
     private ValoresNfse valoresNfse;
 
+    @XmlElement(name="prestador")
     private Prestador prestador;
 
+
+    @XmlElement(name="tomador")
     private Tomador tomador;
 
+    @XmlElement(name="itens")
     private ItensNfse itens;
 
+    @XmlElement(name="produtos")
     private Produtos produtos;
-
-    public int getIdentificador() {
-        return identificador;
-    }
-
-    public void setIdentificador(int identificador) {
-        this.identificador = identificador;
-    }
-
-    public ValoresNfse getValoresNfse() {
-        return valoresNfse;
-    }
-
-    public void setValoresNfse(ValoresNfse valoresNfse) {
-        this.valoresNfse = valoresNfse;
-    }
-
-
-    public Prestador getPrestador() {
-        return prestador;
-    }
-
-    public void setPrestador(Prestador prestador) {
-        this.prestador = prestador;
-    }
-
-
-    public Tomador getTomador() {
-        return tomador;
-    }
-
-    public void setTomador(Tomador tomador) {
-        this.tomador = tomador;
-    }
-
-
-    public ItensNfse getItens() {
-        return itens;
-    }
-
-    public void setItens(ItensNfse itens) {
-        this.itens = itens;
-    }
-
-    public Produtos getProdutos() {
-        return produtos;
-    }
-
-    public void setProdutos(Produtos produtos) {
-        this.produtos = produtos;
-    }
 }
