@@ -1,15 +1,20 @@
 package nfsetimbo.capivaratech.model;
 
+<<<<<<< HEAD
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlType;
+=======
+import jakarta.persistence.Column;
+>>>>>>> main
 import lombok.Data;
 import nfsetimbo.capivaratech.bean.enums.Tipo;
 
 import java.io.Serializable;
 
 @Data
+<<<<<<< HEAD
 @XmlType(propOrder = {"tipo", "cpfcnpj", "nome_razao_social"})
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Tomador implements Serializable {
@@ -50,6 +55,46 @@ public class Tomador implements Serializable {
     protected int dddFax;
 
     @XmlElement(name = "fone_fax")
+=======
+public class Tomador implements Serializable {
+
+    @Column(name = "tipo")
+    protected Tipo tipo;
+    @Column(name = "cpfcnpj")
+    protected int cpfCnpj;
+    @Column(name = "nome_razao_social")
+    protected String razaoSocial;
+
+    @Column(name = "logradouro")
+    protected String logradouro;
+
+    @Column(name = "email")
+    protected String email;
+
+    @Column(name = "numero_residencia")
+    protected int numero_residencia;
+    @Column(name = "bairro")
+    protected String bairro;
+
+    @Column(name = "cidade")
+    protected int cidade;
+    @Column(name = "cep")
+    protected int cep;
+    @Column(name = "ddd_fone_comercial")
+    protected int ddd_fone_comercial;
+    @Column(name = "fone_comercial")
+    protected int fone_comercial;
+    @Column(name = "ddd_fone_residencial")
+    protected int ddd_fone_residencial;
+
+    @Column(name = "fone_residencial")
+    protected int foneResidencial;
+
+    @Column(name = "ddd_fax")
+    protected int dddFax;
+
+    @Column(name = "fone_fax")
+>>>>>>> main
     protected int foneFax;
 
     public Tomador() {}

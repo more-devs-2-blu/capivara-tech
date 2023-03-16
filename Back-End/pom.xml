@@ -11,8 +11,8 @@
 	<groupId>Projeto</groupId>
 	<artifactId>BackEnd-Pet-Shop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BackEnd-Pet-Shop</name>
-	<description>Projeto para permitir controle de cadastro de animais de estimação em um pet-shop </description>
+	<name>capivara-tech</name>
+	<description>Api de digitação, transmissão e consulta de NFS-es, prefeitura de Timbo/SC  </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -29,7 +29,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>

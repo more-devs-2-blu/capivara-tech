@@ -1,11 +1,17 @@
 package nfsetimbo.capivaratech.model;
 
+<<<<<<< HEAD
 import jakarta.xml.bind.annotation.*;
+=======
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+>>>>>>> main
 import lombok.Data;
 import nfsetimbo.capivaratech.bean.enums.TributaMunicipioPrestador;
 
 import java.io.Serializable;
 
+<<<<<<< HEAD
 @XmlType(propOrder = {"tributa_municipio_prestador","codigo_local_prestacaoServico",
         "unidade_codigo", "unidade_quantidade",
         "unidade_valor_unitario", "codigo_item_lista_servico",
@@ -35,6 +41,32 @@ public class ListaNfse implements Serializable {
    @XmlElement(name = "situacao_tributaria")
    private String situacaoTributaria;
    @XmlElement(name = "valor_tributavel")
+=======
+
+@Data
+@Entity
+public class ListaNfse implements Serializable {
+
+   @Column(name = "tributa_municipio_prestador")
+   private TributaMunicipioPrestador tributaMunicipioPrestador;
+   @Column(name = "codigo_local_prestacao_servico")
+   private int codigoLocalPrestacaoServico = 8357;
+   @Column(name = "unidade_codigo" )
+   private int unidadeCodigo = 43;
+   @Column(name = "unidade_quantidade")
+   private int unidadeQuantidade = 1;
+   @Column(name = "unidade_valor_unitario")
+   private String  unidadeValorUnitario;
+   @Column(name = "codigo_item_lista_servico")
+   private  int  codigoItemListaServico;
+   @Column(name = "descritivo")
+   private  String descritivo = "teste";
+   @Column(name = "aliquota_item_lista_servico")
+   private String aliquotaItemListaServico;
+   @Column(name = "situacao_tributaria")
+   private String situacaoTributaria;
+   @Column(name = "valor_tributavel")
+>>>>>>> main
    private String valorTributavel;
 
    public ListaNfse() {}

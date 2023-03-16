@@ -34,6 +34,7 @@ public class Nfse implements Serializable {
     @XmlElement(name="id")
     private Long id;
 
+<<<<<<< HEAD
     @XmlElement(name="identificador")
     private int identificador;
 
@@ -55,5 +56,24 @@ public class Nfse implements Serializable {
 >>>>>>> main
 
     @XmlElement(name="produtos")
+=======
+    @Column(name="identificador")
+    private int identificador;
+
+    @Column(name="nf")
+    private ValoresNfse valoresNfse;
+
+    @Column(name="prestador")
+    private Prestador prestador;
+
+
+    @Column(name="tomador")
+    private Tomador tomador;
+
+    @Column(name="itens")
+    private ListaNfse itens;
+
+    @Column(name="produtos")
+>>>>>>> main
     private Produtos produtos;
 }
