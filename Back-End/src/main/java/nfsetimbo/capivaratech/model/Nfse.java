@@ -48,7 +48,7 @@ public class Nfse implements Serializable {
     private Tomador tomador;
 
     @XmlElement(name="itens")
-    private ItensNfse itens;
+    private ListaNfse itens;
 
     @XmlElement(name="produtos")
     private Produtos produtos;
