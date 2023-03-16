@@ -1,19 +1,16 @@
 package nfsetimbo.capivaratech.model;
 
-import jakarta.xml.bind.annotation.*;
+import jakarta.persistence.Column;
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Data
-@XmlType(propOrder = {"cpfcnpj", "cidade"})
-@XmlRootElement
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Prestador implements Serializable {
 
-    @XmlElement(name = "cpfcnpj")
+    @Column(name = "cpfcnpj")
     private int cpfCnpj;
-    @XmlElement(name = "cidade")
+    @Column(name = "cidade")
     protected int cidade;
 
     public Prestador(int cpfCnpj, int cidade) {
