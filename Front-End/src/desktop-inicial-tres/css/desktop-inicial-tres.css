@@ -1,0 +1,266 @@
+/* screen - desktop-inicial-tres */
+
+.desktop-inicial-tres {
+  align-items: flex-start;
+  background-color: #1e1e1e;
+  border: 1px none;
+  display: flex;
+  height: 1080px;
+  width: 1920px;
+}
+
+.desktop-inicial-tres .overlap-group-container {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(14, 27, 33) 0%, rgba(132, 71, 43, 0.5) 100%);
+  min-height: 1080px;
+  padding: 4px;
+  width: 1920px;
+}
+
+.desktop-inicial-tres .overlap-group7 {
+  height: 52px;
+  margin-right: 14.5px;
+  position: relative;
+  width: 1898px;
+}
+
+.desktop-inicial-tres .conectado-como {
+  color: var(--akaroa);
+  font-family: var(--font-family-rawline-bold);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  height: 21px;
+  left: 1685px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 31px;
+  width: 211px;
+}
+
+.desktop-inicial-tres .top {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  left: 0;
+  min-width: 1898px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop-inicial-tres .logo {
+  height: 32px;
+  width: 32px;
+}
+
+.desktop-inicial-tres .capivara-tech {
+  color: var(--akaroa);
+  font-family: var(--font-family-rawline-black);
+  font-size: var(--font-size-m);
+  font-weight: 900;
+  height: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 4.0px;
+  margin-left: 9px;
+  width: 442px;
+}
+
+.desktop-inicial-tres .vector {
+  height: 12px;
+  margin-bottom: 0.5px;
+  margin-left: 1302px;
+  width: 110px;
+}
+
+.desktop-inicial-tres .overlap-group6 {
+  align-self: flex-end;
+  height: 109px;
+  margin-right: 16px;
+  position: relative;
+  width: 211px;
+}
+
+.desktop-inicial-tres .main {
+  background-color: #0e1b21;
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  height: 108px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 211px;
+}
+
+.desktop-inicial-tres .rectangle-17 {
+  background: linear-gradient(180deg, rgba(215, 194, 173, 0.25) 0%, rgba(215, 194, 173, 0) 100%);
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 55px;
+  width: 211px;
+}
+
+.desktop-inicial-tres .sair {
+  height: 54px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 54px;
+  width: 211px;
+}
+
+.desktop-inicial-tres .vector-17 {
+  height: 22px;
+  left: 16px;
+  position: absolute;
+  top: 71px;
+  width: 25px;
+}
+
+.desktop-inicial-tres .nome-de-exemplo {
+  height: 54px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 176px;
+}
+
+.desktop-inicial-tres .vector-14 {
+  height: 9px;
+  left: 175px;
+  position: absolute;
+  top: 27px;
+  width: 16px;
+}
+
+.desktop-inicial-tres .overlap-group-1 {
+  align-items: flex-end;
+  background-color: #0e1b21;
+  margin-top: 207px;
+  min-height: 336px;
+  padding: 23px 10px;
+  width: 408px;
+}
+
+.desktop-inicial-tres .line-1 {
+  align-self: flex-start;
+  height: 2px;
+  width: 385px;
+}
+
+.desktop-inicial-tres .overlap-group3 {
+  background: linear-gradient(180deg, rgb(194, 156, 109) 0%, rgb(132, 71, 43) 100%);
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  height: 54px;
+  margin-right: 9px;
+  margin-top: 14px;
+  position: relative;
+  width: 371px;
+}
+
+.desktop-inicial-tres .criar-nsf-e {
+  height: 54px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 344px;
+}
+
+.desktop-inicial-tres .vector-1 {
+  height: 22px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 22px;
+}
+
+.desktop-inicial-tres .overlap-group {
+  background: linear-gradient(180deg, rgb(194, 156, 109) 0%, rgb(132, 71, 43) 100%);
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  height: 54px;
+  margin-right: 9px;
+  margin-top: 13px;
+  position: relative;
+  width: 371px;
+}
+
+.desktop-inicial-tres .ver-nsf-es {
+  height: 54px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 344px;
+}
+
+.desktop-inicial-tres .clientes {
+  height: 54px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 344px;
+}
+
+.desktop-inicial-tres .vector-2 {
+  height: 21px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 22px;
+}
+
+.desktop-inicial-tres .meus-dados {
+  height: 54px;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 344px;
+}
+
+.desktop-inicial-tres .vector-3 {
+  height: 20px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 20px;
+}
+
+.desktop-inicial-tres .line-1-1 {
+  align-self: flex-start;
+  height: 2px;
+  margin-top: 16px;
+  width: 385px;
+}
+
+.desktop-inicial-tres .overlap-group-2 {
+  border: 1px solid;
+  border-color: var(--akaroa);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
