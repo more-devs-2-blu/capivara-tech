@@ -94,7 +94,7 @@ REQUISITOS NÃO FUNCIONAIS:
  - O e-mail deve ser único.
  - O número do telefone deve ser único.
  
- ### 📌 COMO USAR O SISTEMA DA CAPIVATECH 
+ ### 📌 COMO USAR O SISTEMA DA CAPIVARATECH 
 <br>
 
 ### 📌 FERRAMENTAS:
