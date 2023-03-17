@@ -1,6 +1,6 @@
 
 <nfse xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-	<identificador>3812817100220600010000000001</identificador>
+	<identificador>1</identificador>
 	<nf>
 		<valor_total>1,00</valor_total>
 		<valor_desconto>0</valor_desconto>
@@ -18,13 +18,13 @@
 	<tomador>
 		<tipo>J</tipo>
 		<cpfcnpj>00000000000</cpfcnpj>
-		<nome_razao_social>Teste TESTEE</nome_razao_social>
+		<nome_razao_social>Teste 1234</nome_razao_social>
 		<logradouro>Teste</logradouro>
-		<email>sergio.vahldick@senior.com.br</email>
+		<email>Loren@loren.com</email>
 		<numero_residencia>123</numero_residencia>
-		<bairro>BELA VISTA</bairro>
-		<cidade>7107</cidade>
-		<cep>01310932</cep>
+		<bairro>La</bairro>
+		<cidade>Aqui</cidade>
+		<cep>122222</cep>
 		<ddd_fone_comercial>0</ddd_fone_comercial>
 		<fone_comercial/>
 		<ddd_fone_residencial>0</ddd_fone_residencial>
@@ -49,7 +49,7 @@
 		</lista>
 	</itens>
 	<produtos>
-		<descricao>Teste</descricao>
+		<descricao>Testando 1234</descricao>
 		<valor>1,00</valor>
 	</produtos>
 </nfse>

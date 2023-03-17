@@ -94,7 +94,7 @@ REQUISITOS NÃO FUNCIONAIS:
  - O e-mail deve ser único.
  - O número do telefone deve ser único.
  
- ### 📌 COMO USAR O SISTEMA DA CAPIVATECH 
+ ### 📌 COMO USAR O SISTEMA DA CAPIVARATECH 
 <br>
 
 ### 📌 FERRAMENTAS:
@@ -110,7 +110,7 @@ REQUISITOS NÃO FUNCIONAIS:
 * 🖥  Spring MVC
 * 🖥  Spring Data JPA 
 * 🖥  Java 17
-* 🖥  MySQL
+* 🖥  PostgresSQL
 * 🖥  Angular 
 * 🖥  TypeScript
 * 🖥  BootStrap
@@ -228,7 +228,7 @@ Além disso é necessário um editor de código de sua preferência. No nosso ca
 <br>
 
 ### APRESENTAÇÃO
-* Clique e acesse o MVP de demonstração em: [GoogleDrive](https://drive.google.com/drive/folders/16sEiDDBilVmBdva4KSAXjY9sPSfhNHJe?usp=share_link)
+* Clique e acesse o MVP de demonstração em: [GoogleSlides](https://docs.google.com/presentation/d/1qClP7vtnmverCX21L3CZUpgxLlCYYwdZBtJnXLdMIIQ/edit?usp=sharing)
 
 <br>
 

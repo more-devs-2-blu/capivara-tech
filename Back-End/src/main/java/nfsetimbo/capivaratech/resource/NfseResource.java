@@ -1,9 +1,8 @@
 package nfsetimbo.capivaratech.resource;
 
+import nfsetimbo.capivaratech.authenticator.NfsAuthentication;
 import nfsetimbo.capivaratech.model.Nfse;
-import nfsetimbo.capivaratech.model.User;
 import nfsetimbo.capivaratech.service.NfseService;
-import nfsetimbo.capivaratech.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,10 +14,11 @@ import java.util.List;
 @RequestMapping("/nfse")
 public class NfseResource {
 
-    private NfseService nfseService;
+    @Autowired private NfseService nfseService;
 
+    private NfsAuthentication nfsAuthentication;
 
-    @Autowired
+    public ResponseEntity<String> NfsAuthentication(NfsAuthentication nfsAuthentication) {this.nfsAuthentication = nfsAuthentication;}
     public NfseResource(NfseService nfseService) {this.nfseService = nfseService;}
 
 
@@ -36,6 +36,7 @@ public class NfseResource {
 
     @PostMapping("/add")
     public ResponseEntity<Nfse> addNfse(@RequestBody Nfse nfse){
+        nfsAuthentication.executeAuthentication();
         Nfse newNfse = nfseService.addNfse(nfse);
         return new ResponseEntity<>(newNfse, HttpStatus.CREATED);
     }
