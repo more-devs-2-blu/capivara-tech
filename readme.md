@@ -93,6 +93,153 @@ REQUISITOS NÃO FUNCIONAIS:
  - Validação de CPF.
  - O e-mail deve ser único.
  - O número do telefone deve ser único.
+ 
+ ### 📌 COMO USAR O SISTEMA DA CAPIVATECH 
+<br>
+
+### 📌 FERRAMENTAS:
+* 🔧  Intellij Community 
+* 🔧  Visual Studio Code
+* 🔧  Terminal | Prompt Comando | Shell
+<br>
+
+### 📌TECNOLOGIAS
+* 🖥  Sistem Operacional para Desktop
+* 🖥  JDK 
+* 🖥  Spring Boot
+* 🖥  Spring MVC
+* 🖥  Spring Data JPA 
+* 🖥  Java 17
+* 🖥  MySQL
+* 🖥  Angular 
+* 🖥  TypeScript
+* 🖥  BootStrap
+* 🖥  Maven
+* 🖥  Git
+<br>
+
+### 📌DEPENDÊNCIAS
+* 🖥  Spring Starter Data JPA
+* 🖥  Lombok 
+* 🖥  Postgresql validation
+* 🖥  Maven
+* 🖥  Validation 
+<br>
+
+### 📌PRÉ-REQUISITOS
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git Bash ou Terminal, Node.js,Java,Angular e Typescript.
+Além disso é necessário um editor de código de sua preferência. No nosso caso, usamos o Visual Studio Code e uma IDE, como o Intellij.
+<br>
+
+### 📌EXECUTAR A APLICAÇÃO
+<br>
+
+### 📌BANCO DE DADOS
+
+<br> 
+
+#### Abra o Comando do Prompt do POSTEGRESQL
+	source <caminho da pasta onde esta o script sql
+<br>
+
+### 📌BACK-END (SERVIDOR)
+<br>
+
+### Abra o Git Bash e clone este repositório
+	$ git clone https://github.com/more-devs-2-blu/capivara-tech.git
+	
+	
+### Acesse a pasta do projeto no terminal/cmd
+	$ cd capivara-tech
+
+<br>
+
+### Abra o projeto no Intellij
+
+<br>
+* Mudar a senha do Banco de dados no arquivo application.properties do Spring Boot
+
+* Coloque a aplicação para rodar com o atalho Ctrl + Shift + F10
+	* Run CapivaraTechApplication.java
+
+	<br>
+
+### 📌FRONT-END (CLIENTE)
+
+<br>
+
+### Instale o Node (caso não tenha)
+
+<br>
+
+### Instale o Angular no Comand Prompt (caso não tenha)
+	$ npm i -g @angular/cli
+
+### Abra a pasta FrontEnd no VS Code
+
+<br>
+
+### Instale as dependências
+	$ npm install
+
+### Executa a aplicação no Visual Studio Code (terminal)
+	$ ng serve -o
+	
+<br>
+
+### 📌O SERVIDOR INICIARÁ NA PORTA 4200 – ACESSE <https://localhost:4200>
+
+<br>
+
+# 
+
+
+### 📌FEATURES
+
+<br>
+
+### CLIENTE
+- [ x ] Cadastro de Usuário
+- [ x ] Tela Login
+- [ x ] Tela Cadastrar NFS-e 
+<br>
+
+### PRESTADOR DE SERVIÇO
+- [ x ] Tela Listar NFS-e 
+- [ x ] Tela Listar por período
+- [ x ] Tela Cadastrar NF
+<br>
+
+### FUNCIONALIDADES PREVISTAS
+
+* Cadastro de clientes
+* Cadastro de clientes
+* Realização de venda e controle por itens vendidos
+* Aplicação de desconto na primeira compra
+* Realização de venda mediante quantidade em estoque
+* Relatórios de listagem de notas fiscais realizadas
+
+<br>
+
+### DEMONSTRAÇÃO DA APLICAÇÃO
+* Clique e acesse a demonstração: [YouTube](https://youtu.be/_87nkhAazFI)
+
+
+<br>
+
+### APRESENTAÇÃO
+* Clique e acesse o MVP de demonstração em: [GoogleDrive](https://drive.google.com/drive/folders/16sEiDDBilVmBdva4KSAXjY9sPSfhNHJe?usp=share_link)
+
+<br>
+
+### MELHORIAS FUTURAS
+
+
+* Implementação do login com verificação de duas etapas
+* Permissões de acesso ao sistema
+* AI no suporte ao chat prestador de serviço
+
+<br>
 
 <br>
 
