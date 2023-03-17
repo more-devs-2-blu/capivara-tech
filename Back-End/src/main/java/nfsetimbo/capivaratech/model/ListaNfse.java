@@ -3,7 +3,7 @@ package nfsetimbo.capivaratech.model;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import lombok.Data;
-import nfsetimbo.capivaratech.bean.enums.TributaMunicipioPrestador;
+import nfsetimbo.capivaratech.enums.TributaMunicipioPrestador;
 
 import java.io.Serializable;
 
