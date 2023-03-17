@@ -1,0 +1,36 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 30%, #582e0d 100%);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.botaoImpNota{
+    top: 10%;
+    position: relative;
+    width: 200px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    bottom: 1px;
+    left: 32%;
+}
+.botaoCancelaNota{
+    top: 10%;
+    position: relative;
+    width: 200px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    bottom: 1px;
+    left: 38%;
+}
+table{
+    position: relative;
+    top: 5%;
+}
+
