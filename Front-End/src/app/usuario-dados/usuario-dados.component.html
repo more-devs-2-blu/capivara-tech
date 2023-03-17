@@ -1,0 +1,84 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<title>CapivaraTECH - Dados</title>
+    
+<div *ngFor="let user of users" class="col-md-6 col-xl-3">
+    <div class="containerCentral">
+        <div class="cont1">
+            <p class="acesse">{{user.nomeRazaoSocial}} {{user.sobrenome}}</p>
+        </div>
+        <form #loginForm="ngForm" class="formlogin">
+        <div class="cont2">
+
+            <p class="inputUsuario">{{user.email}}</p>
+            <p class="inputUsuario">{{user.cnpjcpf}}</p>
+            <p class="inputUsuario">{{user.inscricaoEstadual}}</p>
+            <p class="inputUsuario">{{user.tipoPessoa}}</p>
+            <p class="inputUsuario">{{user.cep}}, {{user.logradouro}}</p>
+            
+        </div>
+        <div class="cont3">
+            <!-- <button class="">Criar</button> -->
+            <a routerLink="/cadastroUser"><button type="button" class="botaoCriar" data-toggle="modal" data-target="#addUserModal">Alterar</button></a>
+            <a routerLink="/home"><button class="botaoEntrar">Voltar</button></a>
+            <!-- (click)="onLoginUser(loginForm.value.usuario, loginForm.value.senha)" -->
+        </div>
+    </form>
+    </div>
+</div>
+
+<div class="modal fade" id="updateUserModal" tabindex="-1" role="dialog" aria-labelledby="userEditModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+       <div class="modal-content">
+          <div class="modal-header">
+             <h5 class="modal-title" id="updateUserModalLabel">Edit User {{editUser?.nomeRazaoSocial}}</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+             </button>
+          </div>
+          <div class="modal-body">
+             <form #editForm="ngForm">
+                <div class="form-group">
+                   <label for="name">Name</label>
+                   <input type="text" ngModel="{{editUser?.nomeRazaoSocial}}" name="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+                
+                <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" ngModel="{{editUser?.email}}" name="email" class="form-control" id="email" placeholder="Email" required>
+                     </div>
+                     <div class="form-group">
+                        <label for="phone">CNPJ/CPF</label>
+                        <input type="number" ngModel="{{editUser?.cnpjcpf}}" name="cnpjcpf" class="form-control" id="cnpjcpf" placeholder="Phone" required>
+                     </div>
+                     <div class="form-group">
+                         <label for="phone">Sobrenome</label>
+                         <input type="text" ngModel="{{editUser?.sobrenome}}" name="sobrenome" class="form-control" id="sobrenome" placeholder="Name Owner" required>
+                      </div>            
+                      <div class="form-group">
+                         <label for="phone">inscricao Estadual</label>
+                         <input type="text" ngModel="{{editUser?.inscricaoEstadual}}" name="inscricaoEstadual" class="form-control" id="inscricaoEstadual" placeholder="Specie" required>
+                      </div>
+                      <div class="form-group">
+                         <label for="phone">cep</label>
+                         <input type="text" ngModel="{{editUser?.cep}}" name="cep" class="form-control" id="cep" placeholder="cep" required>
+                      </div>
+                      <div class="form-group">
+                         <label for="phone">logradouro</label>
+                         <input type="text" ngModel="{{editUser?.logradouro}}" name="logradouro" class="form-control" id="logradouro" placeholder="logradouro" required>
+                      </div>
+                      <div class="form-group">
+                        <select type="text" class="selectTipoPessoa" placeholder="Nome/Razão Social">
+                            <option value="tipoPessoa">Tipo de pessoa</option>
+                            <option value="fisica">Pessoa Física</option>
+                            <option value="juridica">Pessoa Jurídica</option>
+                        </select>                    
+                      </div>
+                <div class="modal-footer">
+                   <button type="button" id="" data-dismiss="modal" class="btn btn-secondary">Close</button>
+                   <button (click)="onUpdateUser(editForm.value)" data-dismiss="modal" class="btn btn-primary" >Save changes</button>
+                </div>
+             </form>
+          </div>
+       </div>
+    </div>
+  </div>

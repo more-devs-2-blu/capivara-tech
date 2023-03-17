@@ -1,0 +1,20 @@
+<body>
+ 
+    <div class="containerCentral">
+        <ol>
+
+        <div *ngFor="let cliente of clientes" class="col-md-6 col-xl-3">
+            <li>
+            <div class="cont1">
+                    <a routerLink="/home"><button class="botaoEntrar">{{cliente}}</button></a>
+            </div>
+            </li>
+        </div>
+    
+        <a routerLink="/home"><button class="botaoVoltar">Voltar</button></a>
+
+</ol>
+</div>
+
+
+</body>

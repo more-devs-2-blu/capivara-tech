@@ -13,4 +13,6 @@ export interface Nfse{
         itens: String;
 
         produtos: String;
+
+        data: String;
     }

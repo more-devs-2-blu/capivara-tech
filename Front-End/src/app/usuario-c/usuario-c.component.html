@@ -1,0 +1,65 @@
+
+<body>
+   
+    <div class="containerCentralCadUsuario">
+        <form #addForm="ngForm" (ngSubmit)="onAddUser(addForm)">
+        <div class="containerCadUsuario">
+            <input type="text" class="inputCadUsuarioNome" placeholder="Nome/Razão Social">
+            <input type="text" class="inputCadUsuarioSobrenome" placeholder="Sobrenome">
+            <input type="text" class="inputCadUsuarioCPFCNPJ" placeholder="CNPJ/CPF">
+            <br>
+            <select type="text" class="selectTipoPessoa" placeholder="Nome/Razão Social">
+                <option value="tipoPessoa">Tipo de pessoa</option>
+                <option value="fisica">Pessoa Física</option>
+                <option value="juridica">Pessoa Jurídica</option>
+            </select>
+            <br>
+            <input type="text" class="inputCadUsuarEmail" placeholder="Email">
+            <input type="text" class="inputCadUsuarioCep" placeholder="CEP">
+            <input type="text" class="inputCadUsuarioLogradouro" placeholder="Logradouro">
+            <br>
+            <select id="selectEstado">
+                <option value="Estado">Estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+            <br>
+            <input type="text" class="inputCadUsuarioMunicipio" placeholder="Município">
+            <input type="text" class="inputCadUsuarioInscEst" placeholder="Inscrição Estadual">
+            <input type="text" class="inputCadUsuarioInscMun" placeholder="Inscrição Municipal">
+
+        </div>
+            <div class="divBotaoCadUsuario">
+            <a routerLink="/login"><button type="button" id="add-user-form" class="botaoCadUsuarioa">Close</button></a>
+            <button type="submit" class="botaoCadUsuario" >Save changes</button>
+        </div>
+    </form>
+    </div>
+
+</body>

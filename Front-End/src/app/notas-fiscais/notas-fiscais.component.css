@@ -1,0 +1,62 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 30%, #582e0d 100%);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+button{
+    top: 10%;
+    position: relative;
+    width: 200px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    bottom: 1px;
+    left: 30%;
+}
+
+.botaoImpNota{
+    top: 10%;
+    position: relative;
+    width: 200px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    bottom: 1px;
+    left: 20%;
+}
+
+.voltar{
+    top: 10%;
+    position: relative;
+    width: 200px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    bottom: 1px;
+    left: 40%;
+}
+.botaoCancelaNota{
+    top: 10%;
+    position: relative;
+    width: 200px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    bottom: 1px;
+    left: 30%;
+}
+
+
+table{
+    position: relative;
+    top: 5%;
+}

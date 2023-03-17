@@ -1,0 +1,195 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 30%, #582e0d 100%);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -3%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.containerCentral {
+    background-color: rgb(10, 10, 10);
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    /* posiciona na metade da tela */
+    margin-top: -25px;
+    /* e retrocede metade da altura */
+    left: 45%;
+    /* posiciona na metade da tela */
+    margin-left: -100px;
+    /* e retrocede metade da largura */
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 252, 252);
+}
+
+.acesse,
+.capivaraText,
+.exclamacao,
+.conta {
+    position: absolute;
+    color: white;
+
+}
+
+.acesse {
+    left: 84px;
+}
+
+.conta {
+    position: absolute;
+    color: white;
+    left: 70px;
+    top: 25px;
+    font-size: 24px;
+
+}
+
+.capivaraText {
+    position: absolute;
+    color: #8b5831;
+    top: 25px;
+    left: 133px;
+}
+
+.exclamacao {
+    position: absolute;
+    top: 25px;
+    left: 222px;
+}
+
+.cont1 {
+
+    border-width: 3px;
+    border-bottom-style: dashed;
+    border-color: #582e0d;
+    height: 10%;
+}
+
+
+
+.cont2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40.8%;
+}
+
+.formlogin{
+    width: 300px;
+    height: 363px;
+
+    position: absolute;
+}
+
+.cont3 {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+    border-top-style: dashed;
+    border-color: #582e0d;
+    height: 33.1%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botaoCriar {
+    position: relative;
+    width: 130px;
+    height: 35px;
+    font-style: normal;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    top: 130%;
+    left: 15px;
+}
+
+.botaoEntrar {
+    position: relative;
+    width: 130px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    top: 130%;
+    left: 20px;
+}
+
+.inputUsuario {
+    position: relative;
+    height: 30px;
+    width: 230px;
+    top: 12px;
+    left: 10%;
+    border-radius: 1px;
+    color: white;
+    border-color: white;
+    border-radius: 3px;
+
+}
+
+.inputSenha {
+    position: relative;
+    height: 30px;
+    width: 230px;
+    top: 22px;
+    left: 10%;
+    border-radius: 1px;
+    color: white;
+    border-color: white;
+    background-color: #444343;
+    border-radius: 3px;
+}
+
+.esqueciSenha {
+    position: relative;
+    color: #7a4217;
+    font-size: 15px;
+    top: 22%;
+    left: 25%;
+}
+
+.containerMenu {
+    position: relative;
+    top: 10px;
+    height: 340px;
+    border-top-style: dashed;
+    border-color: #7a4217;
+    border-bottom-style: dashed;
+}
+
+.botaoMenuCriar,
+.botaoMenuVerNf,
+.botaoMenuClientes,
+.botaoMenuDados {
+    position: relative;
+    top: 50px;
+    left: 15px;
+    width: 270px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+}
+.botaoMenuVerNf{
+    top: 60px;
+}
+.botaoMenuClientes{
+    top: 70px;
+}
+.botaoMenuDados{
+    top: 80px;
+}

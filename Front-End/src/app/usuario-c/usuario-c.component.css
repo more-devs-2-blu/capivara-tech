@@ -1,0 +1,95 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 30%, #582e0d 100%);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.containerCentralCadUsuario {
+    background-color: rgb(10, 10, 10);
+    width: 300px;
+    height: 530px;
+    position: absolute;
+    top: 10%;
+    /* posiciona na metade da tela */
+    margin-top: -25px;
+    /* e retrocede metade da altura */
+    left: 45%;
+    /* posiciona na metade da tela */
+    margin-left: -100px;
+    /* e retrocede metade da largura */
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 252, 252);
+}
+
+label {
+    color: white;
+}
+
+.containerCadUsuario {
+    position: relative;
+    top: 10px;
+    height: 340px;
+    border-top-style: dashed;
+
+}
+
+h1 {
+    color: white;
+}
+
+input {
+    position: relative;
+    height: 30px;
+    width: 230px;
+    top: 10px;
+    left: 30px;
+    border-radius: 1px;
+    color: white;
+    border-color: white;
+    background-color: #444343;
+    margin-bottom: 5px;   
+}
+input::placeholder{
+    color: rgb(182, 182, 182);
+}
+option{
+    color: white;
+}
+select{
+    position: relative;
+    height: 30px;
+    width: 230px;
+    top: 10px;
+    left: 30px;
+    border-radius: 1px;
+    color: rgb(182,182,182);
+    border-color: white;
+    background-color: #444343;
+    margin-bottom: 5px;
+    
+}
+
+button {
+    top: 88%;
+    position: relative;
+    width: 200px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(163, 113, 55);
+    bottom: 1px;
+    left: 60%;
+}
+
+.divBotaoCadUsuario {
+    height: 100px;
+    width: 30%;
+
+}
+

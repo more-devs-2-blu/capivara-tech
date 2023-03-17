@@ -1,0 +1,60 @@
+<body>
+    <div class="containerCentralEmissao">
+        <div class="containerEmissao">
+            <div class="containerPrestador">
+                <label>Prestador:</label>
+                <br>
+                <input type="number" class="prestadorCNPJCPF" placeholder="CNPJ/CPF">
+                <input type="number" class="prestadorCodCidade" placeholder="Código da cidade (Código TOM)">
+                <br>
+            </div>
+            <div class="containerTomador">
+                <label>Tomador:</label>
+                <br>
+                <select class="selectTipoTomador">
+                    <option value="">Tipo</option>
+                    <option value="E">Estrangeiro</option>
+                    <option value="F">Pessoa Física</option>
+                    <option value="J">Pessoa Jurídica</option>
+                </select>
+                <input type="number" class="tomadorCNPJCPF" placeholder="CNPJ/CPF">
+                <input type="text" class="razaoSocial" placeholder="Razão Social">
+            </div>
+            <div class="itensNF">
+                <label>Itens NF:</label>
+                <br>
+                <select class="selectTributaMunicipio">
+                    <option value="">Tributa no Município?</option>
+                    <option value="s">Sim</option>
+                    <option value="n">Não</option>
+                </select>
+                <input type="number" class="codCidadeServico" placeholder="Código da cidade (Código TOM)">
+                <input type="text" class="codServico" placeholder="Código de serviço LEI 116/2003">
+                <select class="selectAliquotaItem">
+                    <option value="">Aliquota Serviço</option>
+                    <option value="5">702</option>
+                    <option value="3">1406</option>
+                    <option value="2">1708</option>
+                </select>
+                <input type="text" class="situacaoTributaria" placeholder="Código Situação Tributária">
+                <br>
+                <input type="number" class="valorTributavel" placeholder="Valor tributavel">
+                <br>
+                <textarea type="text" class="descricaoItemNF" placeholder="Descrição"></textarea>
+
+            </div>
+            <div class="produtosNF">
+                <label>Produtos:</label>
+                <br>
+                <textarea type="text" class="descricaoProduto" placeHolder="Descriçao"></textarea>
+                <input type="number" class="valorProduto" placeholder="Valor">
+            </div>
+        </div>
+        <div class="divBotaoEnviaNF">
+            <a routerLink="/home"><button class="botaoEnviaNF">Emitir NFe</button></a>
+        </div>
+        <div class="voltar">
+            <a routerLink="/home"><button class="botaoEnviaNF">Voltar</button></a>
+        </div>
+    </div>
+</body>
