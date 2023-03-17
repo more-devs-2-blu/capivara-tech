@@ -232,6 +232,11 @@ Além disso é necessário um editor de código de sua preferência. No nosso ca
 
 <br>
 
+### LANDING PAGE
+* Clique e acesse o site institucional da CapivaraTech em:[LANDING PAGE](https://capivaratech.w3spaces.com/)
+
+<br>
+
 ### MELHORIAS FUTURAS
 
 
