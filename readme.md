@@ -212,17 +212,13 @@ Além disso é necessário um editor de código de sua preferência. No nosso ca
 
 ### FUNCIONALIDADES PREVISTAS
 
-* Cadastro de clientes
-* Cadastro de clientes
-* Realização de venda e controle por itens vendidos
-* Aplicação de desconto na primeira compra
-* Realização de venda mediante quantidade em estoque
-* Relatórios de listagem de notas fiscais realizadas
+* Cadastro de prestadores fora do município para geração de RANF's
+* Relatórios de listagem de notas fiscais realizadas e futuras.
 
 <br>
 
 ### DEMONSTRAÇÃO DA APLICAÇÃO
-* Clique e acesse a demonstração: [YouTube](https://youtu.be/_87nkhAazFI)
+* Clique e acesse a demonstração: [YouTube](https://youtu.be/tOTEyaecwPE)
 
 
 <br>
@@ -241,7 +237,7 @@ Além disso é necessário um editor de código de sua preferência. No nosso ca
 
 
 * Implementação do login com verificação de duas etapas
-* Permissões de acesso ao sistema
+* Permissões de acesso ao sistema para outros usuários do grupo
 * AI no suporte ao chat prestador de serviço
 
 <br>
