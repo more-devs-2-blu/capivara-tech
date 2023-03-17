@@ -18,7 +18,10 @@ public class NfseResource {
 
     private NfsAuthentication nfsAuthentication;
 
-    public ResponseEntity<String> NfsAuthentication(NfsAuthentication nfsAuthentication) {this.nfsAuthentication = nfsAuthentication;}
+    public ResponseEntity<String> NfsAuthentication(NfsAuthentication nfsAuthentication){
+        this.nfsAuthentication = nfsAuthentication;
+        return null;
+    }
     public NfseResource(NfseService nfseService) {this.nfseService = nfseService;}
 
 

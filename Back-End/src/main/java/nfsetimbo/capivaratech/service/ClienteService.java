@@ -3,6 +3,7 @@ package nfsetimbo.capivaratech.service;
 import nfsetimbo.capivaratech.exception.UserNotFoundException;
 import nfsetimbo.capivaratech.model.Cliente;
 import nfsetimbo.capivaratech.repository.ClienteRepository;
+import org.hibernate.validator.constraints.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,12 +28,12 @@ public class ClienteService {
     }
 
     public Cliente addCliente(Cliente cliente) {
-        cliente.setClienteCode((UUID.randomUUID().toString()));
+        cliente.setClienteCode(java.util.UUID.randomUUID());
         return clienteRepository.save(cliente);
     }
 
     public Cliente updateCliente(Cliente cliente) {
-        return clienteRepository.save(user);
+        return clienteRepository.save(cliente);
     }
 
     public void deleteCliente(Long id) {

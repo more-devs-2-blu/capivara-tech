@@ -3,9 +3,9 @@ package nfsetimbo.capivaratech.model;
 import jakarta.persistence.*;
 import lombok.Data;
 import nfsetimbo.capivaratech.enums.Tipo;
-import org.hibernate.validator.constraints.UUID;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 @Entity
 @Data
