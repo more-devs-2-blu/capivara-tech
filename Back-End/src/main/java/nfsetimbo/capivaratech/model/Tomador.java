@@ -1,7 +1,7 @@
 package nfsetimbo.capivaratech.model;
 
 import jakarta.persistence.Column;
-import nfsetimbo.capivaratech.bean.enums.Tipo;
+import nfsetimbo.capivaratech.enums.Tipo;
 
 import java.io.Serializable;
 

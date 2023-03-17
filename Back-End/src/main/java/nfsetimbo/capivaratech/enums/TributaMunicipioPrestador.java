@@ -1,4 +1,4 @@
-package nfsetimbo.capivaratech.bean.enums;
+package nfsetimbo.capivaratech.enums;
 
 import java.io.Serializable;
 
